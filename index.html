@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="author" content="Jardel Vasconcelos">
     <title>Exercício de CSS Notícia</title>
+
+    <link href="estilo.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,8 +14,11 @@
     <h1>As tecnologias mais marcantes da década de 90</h1>
     <h2>Relembre o que exsitiu</h2>
 
-    <p>Felipe Gugelmin</p>
-    17/08/2012 às 11:31
+    <p class="autor">
+        Felipe Gugelmin<br>
+        17/08/2012 às 11:31
+    </p>
+    
     <p>
         Quando comparada a outros aspectos de nossa vida, é fato que a tecnologia evolui em uma velocidade bastante surpreendente. 
         Para comprovar isso, basta olhar para o mercado de smartphones: aparelhos como o Samsung Galaxy S3 e o iPhone 4S possuem 
@@ -73,11 +78,7 @@
         muito bem no que ela gostaria de ouvir antes de sair de casa.
     </p>
 
-    <!-- 
-        Leia mais sobre Internet <link a>
-        <link target=”_blanck” a > Coloque direcionando para https://www.google.com.br
-    -->
-    <a href="https://www.google.com.br" target="_blank">Leia mais sobre Internet</a>
+    <p id="leiaMais"><a href="https://www.google.com.br" target="_blank">Leia mais sobre Internet</a></p>
 
 
 </body>

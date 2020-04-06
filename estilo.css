@@ -1,0 +1,56 @@
+.autor{
+    color: #808080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h1{
+    color: #6666cc;
+}
+
+h2{
+    color: #9999ff;
+}
+
+h3{
+    color: #6666CC;
+}
+
+figure{
+    width: 480;
+    height: 398;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#leiaMais{
+    color: #FF0000;
+    font-weight: bold, underline;  
+}
+
+a:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  a:hover {
+    color:#000000;
+    text-decoration:underline;
+  }
+  a:active {
+    color:#00ff00;
+    text-decoration:underline;
+    background-color:#000000;
+  }
